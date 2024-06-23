@@ -1,0 +1,54 @@
+
+
+[
+    {
+        "date": 1694545869,
+        "domain": "www.npr.org",
+        "image": "https://media.npr.org/assets/img/2023/09/12/lee-cone-path-map-e0181d0f44afabaed5e3c7b40a1cc402056139be-s1100-c50.jpg",
+        "isVideo": false,
+        "link": "https://www.npr.org/2023/09/12/1198996108/hurricane-lee-now-very-large-is-raising-wind-and-surf-dangers-along-the-east-coa",
+        "preview": "Hurricane Lee will bring perilous rip currents and surf conditions at beaches along the U.S. East Coast this week. And while the strong storm has yet to ...",
+        "pubLogo": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.npr.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "publisher": "NPR",
+        "relatedArticles": [
+            {
+                "date": 1694557380,
+                "domain": "www.cnn.com",
+                "image": "https://media.cnn.com/api/v1/images/stellar/prod/230912140224-lee-satellite-tuesday-2pm.jpg?c=original",
+                "isVideo": false,
+                "link": "https://www.cnn.com/2023/09/12/weather/hurricane-lee-path-tuesday-climate/index.html",
+                "preview": "Hurricane Lee grew even larger on Tuesday and triggered a tropical storm watch for Bermuda as the cyclone's potential impacts begin to come into focus for ...",
+                "pubLogo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+                "publisher": "CNN",
+                "title": "Hurricane Lee path: Storm continues to grow in the Atlantic ahead of pivotal turn",
+                "topicId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p0d1lMM0NCRUprVGNlYlFmLVNDZ0FQAQ"
+            },
+            {
+                "date": 1694467705,
+                "domain": "www.youtube.com",
+                "image": "https://img.youtube.com/vi/undefined/0.jpg",
+                "isVideo": true,
+                "link": "https://www.youtube.com/watch?v=DgmpG5EPJkc",
+                "preview": null,
+                "pubLogo": "https://yt3.ggpht.com/ytc/AOPolaTd7PFw_UocXQW5xpBic9rh5_FUawbtapVYDFyEfQ",
+                "publisher": "10 Tampa Bay",
+                "title": "Tracking the Tropics: Hurricanes Lee and Margot — and everything else in the tropics",
+                "topicId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p0d1lMM0NCRUprVGNlYlFmLVNDZ0FQAQ"
+            },
+            {
+                "date": 1694546325,
+                "domain": "www.seatrade-cruise.com",
+                "image": "https://www.seatrade-cruise.com/sites/seatrade-cruise.com/files/styles/article_featured_standard/public/CRUISE_Hurricane_Lee.jpg?itok=PFGV0oTq",
+                "isVideo": false,
+                "link": "https://www.seatrade-cruise.com/environmental-health/hurricane-lee-impacting-cruise-itineraries-updated",
+                "preview": "Hurricane Lee, which has been churning far out in the Atlantic for days, is starting to impact Bermuda and Canada/New England cruises as it turns northward.",
+                "pubLogo": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.seatrade-cruise.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+                "publisher": "Seatrade Cruise News",
+                "title": "Hurricane Lee is impacting cruise itineraries (updated)",
+                "topicId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p0d1lMM0NCRUprVGNlYlFmLVNDZ0FQAQ"
+            }
+        ],
+        "title": "Hurricane Lee, now very large, is raising wind and surf dangers along the East Coast",
+        "topicId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p0d1lMM0NCRUprVGNlYlFmLVNDZ0FQAQ"
+    }
+]
