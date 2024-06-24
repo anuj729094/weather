@@ -43,19 +43,19 @@ const Header = ({func}) => {
         }
         return () => clearTimeout(timer)
     }, [state])
-    // useEffect(() => {
-    //     getquotes().then(function (res) {
-    //         setLoad(true)
-    //         if (res.status) {
-    //             setLoad(false)
-    //             setQuote(res.data)
-    //         }
-    //         else {
-    //             setLoad(false)
-    //             throw new Error(res.msg)
-    //         }
-    //     }).catch((error) => setErrorquote(error.message))
-    // }, [])
+    useEffect(() => {
+        getquotes().then(function (res) {
+            setLoad(true)
+            if (res.status) {
+                setLoad(false)
+                setQuote(res.data)
+            }
+            else {
+                setLoad(false)
+                throw new Error(res.msg)
+            }
+        }).catch((error) => setErrorquote(error.message))
+    }, [])
     return (
         <div id='home' className=' scroll-mt-32 xl:flex xl:justify-center px-3 lg:px-12 xl:px-0'>
             <div className=' xl:w-[75rem]'>

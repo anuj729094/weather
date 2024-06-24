@@ -47,7 +47,7 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <p className=' font-semibold text-lg'>Business</p>
+                            <p className=' font-semibold text-lg'>Technology</p>
                             <ul className=' text-xs flex flex-col gap-3 mt-3'>
                                 <li>Startup</li>
                                 <li>Employee</li>
@@ -57,7 +57,7 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <p className=' font-semibold text-lg'>Business</p>
+                            <p className=' font-semibold text-lg'>Travel</p>
                             <ul className=' text-xs flex flex-col gap-3 mt-3'>
                                 <li>Startup</li>
                                 <li>Employee</li>
@@ -67,7 +67,7 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <p className=' font-semibold text-lg'>Business</p>
+                            <p className=' font-semibold text-lg'>Sports</p>
                             <ul className=' text-xs flex flex-col gap-3 mt-3'>
                                 <li>Startup</li>
                                 <li>Employee</li>
@@ -79,7 +79,7 @@ const Footer = () => {
                     </ul>
                     <ul className=' grid grid-cols-2 md:grid-cols-4 gap-4'>
                         <li>
-                            <p className=' font-semibold text-lg'>Business</p>
+                            <p className=' font-semibold text-lg'>Entertainment</p>
                             <ul className=' text-xs flex flex-col gap-3 mt-3'>
                                 <li>Startup</li>
                                 <li>Employee</li>
@@ -89,7 +89,7 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <p className=' font-semibold text-lg'>Business</p>
+                            <p className=' font-semibold text-lg'>Features</p>
                             <ul className=' text-xs flex flex-col gap-3 mt-3'>
                                 <li>Startup</li>
                                 <li>Employee</li>
@@ -99,7 +99,7 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <p className=' font-semibold text-lg'>Business</p>
+                            <p className=' font-semibold text-lg'>Weather</p>
                             <ul className=' text-xs flex flex-col gap-3 mt-3'>
                                 <li>Startup</li>
                                 <li>Employee</li>
@@ -109,7 +109,7 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <p className=' font-semibold text-lg'>Business</p>
+                            <p className=' font-semibold text-lg'>More</p>
                             <ul className=' text-xs flex flex-col gap-3 mt-3'>
                                 <li>Startup</li>
                                 <li>Employee</li>

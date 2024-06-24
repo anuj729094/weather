@@ -13,7 +13,7 @@ const Contact = () => {
       toast.success(`Thank you for your response ${userData.name}`)
   }
   return (
-    <div style={{scrollMarginTop:"5rem"}} id='contact' className=' xl:flex xl:justify-center px-3 lg:px-10 xl:px-0 my-10'>
+    <div style={{scrollMarginTop:"5.5rem"}} id='contact' className=' xl:flex xl:justify-center px-3 lg:px-10 xl:px-0 my-10'>
        <div className=' xl:w-[75rem] flex flex-col gap-4 sm:flex-row sm:justify-between'>
           <div className=' sm:w-[50%]'>
              <h2 className=' text-2xl sm:text-4xl font-semibold'>
@@ -23,7 +23,7 @@ const Contact = () => {
              <form className=' flex flex-col gap-3 sm:gap-5' onSubmit={postdata}>
                 <div>
                     <label htmlFor="name" className=' text-sm'>Name</label>
-                    <input type="text" id="name" required value={userData.name} onChange={(e)=>setUserData({...userData,name:e.target.value})} className=' mt-1 border-[2px] border-solid border-[#EDEDED] rounded-md w-full outline-none py-2 pl-2'/>
+                    <input type="text" id="name" required value={userData.name} onChange={(e)=>setUserData({...userData,name:e.target.value})} className=' otut mt-1 border-[2px] border-solid border-[#EDEDED] rounded-md w-full outline-none py-2 pl-2'/>
                 </div>
                 <div>
                     <label htmlFor="company" className=' text-sm'>Company</label>
