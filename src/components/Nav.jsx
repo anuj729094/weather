@@ -121,8 +121,8 @@ const Nav = ({ country }) => {
                 </div> :
                 <div className='bg-[#F5F5F5] grid grid-cols-2 gap-3'>
                   <div className=' col-span-2 inline-flex justify-end items-center sticky top-0'>
-                  <button onClick={() => setDis("none")} className='bg-black text-white rounded-md  p-3 '><IoMdClose /></button>
-                    </div>
+                    <button onClick={() => setDis("none")} className='bg-black text-white rounded-md  p-3 '><IoMdClose /></button>
+                  </div>
                   {
                     data.map((item, index) =>
                       <div key={index} className=' overflow-hidden '>

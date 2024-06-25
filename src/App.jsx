@@ -9,7 +9,6 @@ import News from './components/News'
 import Newshots from './components/Newshots'
 
 function App() {
-  console.log(import.meta.env);
   const [country, setCountry] = useState(null)
   const [obj, setObj] = useState({
     type: "Latest News", location: country || "India"
