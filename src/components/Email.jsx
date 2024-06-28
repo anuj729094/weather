@@ -4,7 +4,7 @@ import handwriting from '../assets/handwriting.png'
 const Email = () => {
     return (
         <div id="subscribe" className=' scroll-mt-28 xl:flex xl:justify-center  px-3 lg:px-12 xl:px-0 my-10'>
-            <div className=' xl:w-[75rem] lg:h-[12rem] bg-[#F5F5F5] px-4 xl:px-10 flex gap-10 sm:flex-row justify-between sm:items-center flex-col rounded-md py-7'>
+            <div className=' xl:w-[75rem] lg:h-[12rem] bg-[#F5F5F5] px-4 xl:px-10 flex  sm:flex-row justify-between sm:items-center flex-col rounded-md py-7'>
                 <div>
                     <h2 className=' text-[#474A52] font-semibold text-xs sm:text-sm tracking-[0.4rem] '>GET FIRST UPDATE</h2>
                     <p className='mt-2 font-semibold flex flex-wrap items-center lg:text-3xl md:text-xl'>Get the news in front line by subscribe <span><img src={handwriting} className=' w-8 lg:w-10'/></span>our latest updates</p>

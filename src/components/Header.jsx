@@ -32,11 +32,12 @@ const Header = ({func}) => {
                         setLoading(false)
                         setErrorweather(null)
                         setWeatherData(res.data)
-                        func(res.data.location.country) 
+                        func(res.data.location.country || "India") 
                     }
                     else {
                         setLoading(false)
                         setErrorweather(res.msg)
+                        func("India")
                     }
                 }).catch((error) => setErrorweather(error.message))
             }, 2000);

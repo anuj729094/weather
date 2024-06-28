@@ -40,7 +40,7 @@ export const getquotes = async () => {
 
 export const getnewsbylocation = async (obj) => {
     try {
-        const url = `https://newsapi90.p.rapidapi.com/topic/${obj.type.split(" ")[0].toLowerCase()}?language=en-US&region=${obj.location[0].toUpperCase()}${obj.location[1].toUpperCase()}`;
+        const url = `https://newsapi90.p.rapidapi.com/topic/${obj.category.split(" ")[0].toLowerCase()}?language=en-US&region=${obj.country[0].toUpperCase()}${obj.country[1].toUpperCase()}`;
         const options = {
             method: 'GET',
             headers: {

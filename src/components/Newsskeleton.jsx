@@ -3,18 +3,15 @@ import { IoIosArrowForward } from 'react-icons/io'
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
-const Newsskeleton = () => {
+const Newsskeleton = ({grid}) => {
   return (
     <div>
-      <Skeleton width={window.innerWidth < 640 ? 170 : 250} height={50} className=' mb-3' />
       <div className=' grid  grid-cols-2 sm:grid-cols-3 lg:grid-cols-4  gap-x-5 gap-y-4'>
         <div className='  col-span-2  sm:col-span-3 lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4  text-xs sm:text-sm lg:text-lg font-medium '>
-          <div className='relative  bg-[#F4F4F4] h-[20rem] md:h-auto  image-con sm:col-span-2 rounded-3xl sm:row-span-3 flex '>
-
+          <div style={window.innerWidth>=768?{gridColumnStart:grid}:{}} className='relative  bg-[#F4F4F4] h-[20rem] md:h-auto  image-con sm:col-span-2 rounded-3xl sm:row-span-3 flex '>
             <div className=' bg-[#00000061] rounded-3xl text-white text-sm sm:text-2xl lg:font-extrabold absolute w-full h-full flex flex-col justify-between py-3 px-4'>
               <div className=' flex flex-wrap justify-between gap-4 items-center text-xs sm:text-sm  font-semibold'>
                 <Skeleton height={40} width={180} className=' rounded-3xl' />
-
                 <ul className=' flex gap-2'>
                   <Skeleton width={25} className=' h-5' />
                   <Skeleton width={25} className=' h-5' />

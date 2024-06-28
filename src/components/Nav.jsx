@@ -4,7 +4,7 @@ import { IoIosArrowForward, IoMdClose } from "react-icons/io";
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { getnewssearch } from '../utilis/func';
-const Nav = ({ country }) => {
+const Nav = ({country}) => {
   const tabs = ["Home", "Hots", "Subscribe", "Contact Us"]
   const [dis, setDis] = useState("none")
   const [news, setNews] = useState("")
